@@ -60,7 +60,7 @@
 html,
 body {
   height: 100%;
-  min-width: 375px;
+  min-width: 320px;
 }
 
 body {
@@ -2411,6 +2411,10 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
             column-gap: 9.375rem;
   }
 
+  .fond-steps__item {
+    row-gap: 4.125rem;
+  }
+
   .fond-steps__label {
     font-size: 1.5rem;
   }
@@ -2504,6 +2508,164 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   }
 
   .job-direction__item {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 20em) {
+  .input {
+    font-size: 1rem;
+  }
+
+  .input::-webkit-input-placeholder {
+    font-size: 1rem;
+  }
+
+  .input::-moz-placeholder {
+    font-size: 1rem;
+  }
+
+  .input:-ms-input-placeholder {
+    font-size: 1rem;
+  }
+
+  .input::-ms-input-placeholder {
+    font-size: 1rem;
+  }
+
+  .input::placeholder {
+    font-size: 1rem;
+  }
+
+  .menu__list {
+    -webkit-column-gap: 1.75rem;
+       -moz-column-gap: 1.75rem;
+            column-gap: 1.75rem;
+  }
+
+  .footer__container {
+    -webkit-column-gap: 1.25rem;
+       -moz-column-gap: 1.25rem;
+            column-gap: 1.25rem;
+  }
+
+  .footer__contacts-title:not(:last-child) {
+    margin-bottom: 1.25rem;
+  }
+
+  .main-block__container {
+    padding-top: 12.5rem;
+  }
+
+  .main-block__title {
+    font-size: 2.25rem;
+  }
+
+  .main-block__title span {
+    font-size: 2.25rem;
+  }
+
+  .main-block__label {
+    font-size: 1.125rem;
+  }
+
+  .main-block__label:not(:last-child) {
+    margin-bottom: 1.5625rem;
+  }
+
+  .main-block__btn {
+    padding: 1rem;
+  }
+
+  .job-direction__container {
+    padding-top: 2.8125rem;
+  }
+
+  .job-direction__container {
+    padding-bottom: 3.75rem;
+  }
+
+  .job-direction__container {
+    row-gap: 1.875rem;
+  }
+
+  .job-direction__row:nth-child(1) {
+    -webkit-column-gap: 1.25rem;
+       -moz-column-gap: 1.25rem;
+            column-gap: 1.25rem;
+  }
+
+  .job-direction__title:not(:last-child) {
+    margin-bottom: 1.5625rem;
+  }
+
+  .job-direction__items {
+    row-gap: 1.25rem;
+  }
+
+  .info-job {
+    row-gap: 1.5625rem;
+  }
+
+  .info-job__title {
+    font-size: 1.75rem;
+  }
+
+  .info-job__text {
+    row-gap: 0.9375rem;
+  }
+
+  .info-job__text {
+    font-size: 1rem;
+  }
+
+  .fond-steps__container {
+    padding-top: 2.1875rem;
+  }
+
+  .fond-steps__container {
+    padding-bottom: 2.1875rem;
+  }
+
+  .fond-steps__title {
+    font-size: 1.25rem;
+  }
+
+  .fond-steps__title:not(:last-child) {
+    margin-bottom: 1.875rem;
+  }
+
+  .fond-steps__items {
+    -webkit-column-gap: 1.25rem;
+       -moz-column-gap: 1.25rem;
+            column-gap: 1.25rem;
+  }
+
+  .fond-steps__item {
+    row-gap: 1.5625rem;
+  }
+
+  .fond-steps__label {
+    font-size: 1.25rem;
+  }
+
+  .contact-us__container {
+    padding-top: 1.875rem;
+  }
+
+  .contact-us__container {
+    padding-bottom: 1.875rem;
+  }
+
+  .contact-us__title {
+    font-size: 1.75rem;
+  }
+
+  .contact-us__title:not(:last-child) {
+    margin-bottom: 1.875rem;
+  }
+
+  .contact-us__button {
     font-size: 1rem;
   }
 }
@@ -2711,582 +2873,440 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   }
 }
 
-@media (max-width: 23.4375em) {
-  .input {
-    font-size: 1rem;
-  }
-
-  .input::-webkit-input-placeholder {
-    font-size: 1rem;
-  }
-
-  .input::-moz-placeholder {
-    font-size: 1rem;
-  }
-
-  .input:-ms-input-placeholder {
-    font-size: 1rem;
-  }
-
-  .input::-ms-input-placeholder {
-    font-size: 1rem;
-  }
-
-  .input::placeholder {
-    font-size: 1rem;
-  }
-
-  .menu__list {
-    -webkit-column-gap: 1.75rem;
-       -moz-column-gap: 1.75rem;
-            column-gap: 1.75rem;
-  }
-
-  .footer__container {
-    -webkit-column-gap: 1.25rem;
-       -moz-column-gap: 1.25rem;
-            column-gap: 1.25rem;
-  }
-
-  .footer__contacts-title:not(:last-child) {
-    margin-bottom: 1.25rem;
-  }
-
-  .main-block__container {
-    padding-top: 12.5rem;
-  }
-
-  .main-block__title {
-    font-size: 2.25rem;
-  }
-
-  .main-block__title span {
-    font-size: 2.25rem;
-  }
-
-  .main-block__label {
-    font-size: 1.125rem;
-  }
-
-  .main-block__label:not(:last-child) {
-    margin-bottom: 1.5625rem;
-  }
-
-  .main-block__btn {
-    padding: 1rem;
-  }
-
-  .job-direction__container {
-    padding-top: 2.8125rem;
-  }
-
-  .job-direction__container {
-    padding-bottom: 3.75rem;
-  }
-
-  .job-direction__container {
-    row-gap: 1.875rem;
-  }
-
-  .job-direction__row:nth-child(1) {
-    -webkit-column-gap: 1.25rem;
-       -moz-column-gap: 1.25rem;
-            column-gap: 1.25rem;
-  }
-
-  .job-direction__title:not(:last-child) {
-    margin-bottom: 1.5625rem;
-  }
-
-  .job-direction__items {
-    row-gap: 1.25rem;
-  }
-
-  .info-job {
-    row-gap: 1.5625rem;
-  }
-
-  .info-job__title {
-    font-size: 1.75rem;
-  }
-
-  .info-job__text {
-    row-gap: 0.9375rem;
-  }
-
-  .info-job__text {
-    font-size: 1rem;
-  }
-
-  .fond-steps__container {
-    padding-top: 2.1875rem;
-  }
-
-  .fond-steps__container {
-    padding-bottom: 2.1875rem;
-  }
-
-  .fond-steps__title {
-    font-size: 1.25rem;
-  }
-
-  .fond-steps__title:not(:last-child) {
-    margin-bottom: 1.875rem;
-  }
-
-  .fond-steps__items {
-    -webkit-column-gap: 1.25rem;
-       -moz-column-gap: 1.25rem;
-            column-gap: 1.25rem;
-  }
-
-  .fond-steps__label {
-    font-size: 1.25rem;
-  }
-
-  .contact-us__container {
-    padding-top: 1.875rem;
-  }
-
-  .contact-us__container {
-    padding-bottom: 1.875rem;
-  }
-
-  .contact-us__title {
-    font-size: 1.75rem;
-  }
-
-  .contact-us__title:not(:last-child) {
-    margin-bottom: 1.875rem;
-  }
-
-  .contact-us__button {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 23.4375em) and (max-width: 75em) {
-@supports (font-size: clamp( 1rem , 0.8863636364rem  +  0.4848484848vw , 1.25rem )) {
+@media (min-width: 20em) and (max-width: 75em) {
+@supports (font-size: clamp( 1rem , 0.9090909091rem  +  0.4545454545vw , 1.25rem )) {
     .input {
-      font-size: clamp( 1rem , 0.8863636364rem  +  0.4848484848vw , 1.25rem );
+      font-size: clamp( 1rem , 0.9090909091rem  +  0.4545454545vw , 1.25rem );
     }
 }
 
-@supports not (font-size: clamp( 1rem , 0.8863636364rem  +  0.4848484848vw , 1.25rem )) {
+@supports not (font-size: clamp( 1rem , 0.9090909091rem  +  0.4545454545vw , 1.25rem )) {
     .input {
-      font-size: calc(1rem + 0.25 * (100vw - 23.4375rem) / 51.5625);
+      font-size: calc(1rem + 0.25 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (font-size: clamp( 1rem , 0.8863636364rem  +  0.4848484848vw , 1.25rem )) {
+@supports (font-size: clamp( 1rem , 0.9090909091rem  +  0.4545454545vw , 1.25rem )) {
     .input::-webkit-input-placeholder {
-      font-size: clamp( 1rem , 0.8863636364rem  +  0.4848484848vw , 1.25rem );
+      font-size: clamp( 1rem , 0.9090909091rem  +  0.4545454545vw , 1.25rem );
     }
     .input::-moz-placeholder {
-      font-size: clamp( 1rem , 0.8863636364rem  +  0.4848484848vw , 1.25rem );
+      font-size: clamp( 1rem , 0.9090909091rem  +  0.4545454545vw , 1.25rem );
     }
     .input:-ms-input-placeholder {
-      font-size: clamp( 1rem , 0.8863636364rem  +  0.4848484848vw , 1.25rem );
+      font-size: clamp( 1rem , 0.9090909091rem  +  0.4545454545vw , 1.25rem );
     }
     .input::-ms-input-placeholder {
-      font-size: clamp( 1rem , 0.8863636364rem  +  0.4848484848vw , 1.25rem );
+      font-size: clamp( 1rem , 0.9090909091rem  +  0.4545454545vw , 1.25rem );
     }
     .input::placeholder {
-      font-size: clamp( 1rem , 0.8863636364rem  +  0.4848484848vw , 1.25rem );
+      font-size: clamp( 1rem , 0.9090909091rem  +  0.4545454545vw , 1.25rem );
     }
 }
 
-@supports not (font-size: clamp( 1rem , 0.8863636364rem  +  0.4848484848vw , 1.25rem )) {
+@supports not (font-size: clamp( 1rem , 0.9090909091rem  +  0.4545454545vw , 1.25rem )) {
     .input::-webkit-input-placeholder {
-      font-size: calc(1rem + 0.25 * (100vw - 23.4375rem) / 51.5625);
+      font-size: calc(1rem + 0.25 * (100vw - 20rem) / 55);
     }
     .input::-moz-placeholder {
-      font-size: calc(1rem + 0.25 * (100vw - 23.4375rem) / 51.5625);
+      font-size: calc(1rem + 0.25 * (100vw - 20rem) / 55);
     }
     .input:-ms-input-placeholder {
-      font-size: calc(1rem + 0.25 * (100vw - 23.4375rem) / 51.5625);
+      font-size: calc(1rem + 0.25 * (100vw - 20rem) / 55);
     }
     .input::-ms-input-placeholder {
-      font-size: calc(1rem + 0.25 * (100vw - 23.4375rem) / 51.5625);
+      font-size: calc(1rem + 0.25 * (100vw - 20rem) / 55);
     }
     .input::placeholder {
-      font-size: calc(1rem + 0.25 * (100vw - 23.4375rem) / 51.5625);
+      font-size: calc(1rem + 0.25 * (100vw - 20rem) / 55);
     }
 }
 
-@supports ((-moz-column-gap: clamp( 1.75rem , 1.6363636364rem  +  0.4848484848vw , 2rem )) or (column-gap: clamp( 1.75rem , 1.6363636364rem  +  0.4848484848vw , 2rem ))) {
+@supports ((-moz-column-gap: clamp( 1.75rem , 1.6590909091rem  +  0.4545454545vw , 2rem )) or (column-gap: clamp( 1.75rem , 1.6590909091rem  +  0.4545454545vw , 2rem ))) {
     .menu__list {
-      -webkit-column-gap: clamp( 1.75rem , 1.6363636364rem  +  0.4848484848vw , 2rem );
-         -moz-column-gap: clamp( 1.75rem , 1.6363636364rem  +  0.4848484848vw , 2rem );
-              column-gap: clamp( 1.75rem , 1.6363636364rem  +  0.4848484848vw , 2rem );
+      -webkit-column-gap: clamp( 1.75rem , 1.6590909091rem  +  0.4545454545vw , 2rem );
+         -moz-column-gap: clamp( 1.75rem , 1.6590909091rem  +  0.4545454545vw , 2rem );
+              column-gap: clamp( 1.75rem , 1.6590909091rem  +  0.4545454545vw , 2rem );
     }
 }
 
-@supports not ((-moz-column-gap: clamp( 1.75rem , 1.6363636364rem  +  0.4848484848vw , 2rem )) or (column-gap: clamp( 1.75rem , 1.6363636364rem  +  0.4848484848vw , 2rem ))) {
+@supports not ((-moz-column-gap: clamp( 1.75rem , 1.6590909091rem  +  0.4545454545vw , 2rem )) or (column-gap: clamp( 1.75rem , 1.6590909091rem  +  0.4545454545vw , 2rem ))) {
     .menu__list {
-      -webkit-column-gap: calc(1.75rem + 0.25 * (100vw - 23.4375rem) / 51.5625);
-         -moz-column-gap: calc(1.75rem + 0.25 * (100vw - 23.4375rem) / 51.5625);
-              column-gap: calc(1.75rem + 0.25 * (100vw - 23.4375rem) / 51.5625);
+      -webkit-column-gap: calc(1.75rem + 0.25 * (100vw - 20rem) / 55);
+         -moz-column-gap: calc(1.75rem + 0.25 * (100vw - 20rem) / 55);
+              column-gap: calc(1.75rem + 0.25 * (100vw - 20rem) / 55);
     }
 }
 
-@supports ((-moz-column-gap: clamp( 1.25rem , -1.5340909091rem  +  11.8787878788vw , 7.375rem )) or (column-gap: clamp( 1.25rem , -1.5340909091rem  +  11.8787878788vw , 7.375rem ))) {
+@supports ((-moz-column-gap: clamp( 1.25rem , -0.9772727273rem  +  11.1363636364vw , 7.375rem )) or (column-gap: clamp( 1.25rem , -0.9772727273rem  +  11.1363636364vw , 7.375rem ))) {
     .footer__container {
-      -webkit-column-gap: clamp( 1.25rem , -1.5340909091rem  +  11.8787878788vw , 7.375rem );
-         -moz-column-gap: clamp( 1.25rem , -1.5340909091rem  +  11.8787878788vw , 7.375rem );
-              column-gap: clamp( 1.25rem , -1.5340909091rem  +  11.8787878788vw , 7.375rem );
+      -webkit-column-gap: clamp( 1.25rem , -0.9772727273rem  +  11.1363636364vw , 7.375rem );
+         -moz-column-gap: clamp( 1.25rem , -0.9772727273rem  +  11.1363636364vw , 7.375rem );
+              column-gap: clamp( 1.25rem , -0.9772727273rem  +  11.1363636364vw , 7.375rem );
     }
 }
 
-@supports not ((-moz-column-gap: clamp( 1.25rem , -1.5340909091rem  +  11.8787878788vw , 7.375rem )) or (column-gap: clamp( 1.25rem , -1.5340909091rem  +  11.8787878788vw , 7.375rem ))) {
+@supports not ((-moz-column-gap: clamp( 1.25rem , -0.9772727273rem  +  11.1363636364vw , 7.375rem )) or (column-gap: clamp( 1.25rem , -0.9772727273rem  +  11.1363636364vw , 7.375rem ))) {
     .footer__container {
-      -webkit-column-gap: calc(1.25rem + 6.125 * (100vw - 23.4375rem) / 51.5625);
-         -moz-column-gap: calc(1.25rem + 6.125 * (100vw - 23.4375rem) / 51.5625);
-              column-gap: calc(1.25rem + 6.125 * (100vw - 23.4375rem) / 51.5625);
+      -webkit-column-gap: calc(1.25rem + 6.125 * (100vw - 20rem) / 55);
+         -moz-column-gap: calc(1.25rem + 6.125 * (100vw - 20rem) / 55);
+              column-gap: calc(1.25rem + 6.125 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (margin-bottom: clamp( 1.25rem , 1.0227272727rem  +  0.9696969697vw , 1.75rem )) {
+@supports (margin-bottom: clamp( 1.25rem , 1.0681818182rem  +  0.9090909091vw , 1.75rem )) {
     .footer__contacts-title:not(:last-child) {
-      margin-bottom: clamp( 1.25rem , 1.0227272727rem  +  0.9696969697vw , 1.75rem );
+      margin-bottom: clamp( 1.25rem , 1.0681818182rem  +  0.9090909091vw , 1.75rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 1.25rem , 1.0227272727rem  +  0.9696969697vw , 1.75rem )) {
+@supports not (margin-bottom: clamp( 1.25rem , 1.0681818182rem  +  0.9090909091vw , 1.75rem )) {
     .footer__contacts-title:not(:last-child) {
-      margin-bottom: calc(1.25rem + 0.5 * (100vw - 23.4375rem) / 51.5625);
+      margin-bottom: calc(1.25rem + 0.5 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (padding-top: clamp( 12.5rem , 11.4488636364rem  +  4.4848484848vw , 14.8125rem )) {
+@supports (padding-top: clamp( 12.5rem , 11.6590909091rem  +  4.2045454545vw , 14.8125rem )) {
     .main-block__container {
-      padding-top: clamp( 12.5rem , 11.4488636364rem  +  4.4848484848vw , 14.8125rem );
+      padding-top: clamp( 12.5rem , 11.6590909091rem  +  4.2045454545vw , 14.8125rem );
     }
 }
 
-@supports not (padding-top: clamp( 12.5rem , 11.4488636364rem  +  4.4848484848vw , 14.8125rem )) {
+@supports not (padding-top: clamp( 12.5rem , 11.6590909091rem  +  4.2045454545vw , 14.8125rem )) {
     .main-block__container {
-      padding-top: calc(12.5rem + 2.3125 * (100vw - 23.4375rem) / 51.5625);
+      padding-top: calc(12.5rem + 2.3125 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (font-size: clamp( 2.25rem , 1.7386363636rem  +  2.1818181818vw , 3.375rem )) {
+@supports (font-size: clamp( 2.25rem , 1.8409090909rem  +  2.0454545455vw , 3.375rem )) {
     .main-block__title {
-      font-size: clamp( 2.25rem , 1.7386363636rem  +  2.1818181818vw , 3.375rem );
+      font-size: clamp( 2.25rem , 1.8409090909rem  +  2.0454545455vw , 3.375rem );
     }
 }
 
-@supports not (font-size: clamp( 2.25rem , 1.7386363636rem  +  2.1818181818vw , 3.375rem )) {
+@supports not (font-size: clamp( 2.25rem , 1.8409090909rem  +  2.0454545455vw , 3.375rem )) {
     .main-block__title {
-      font-size: calc(2.25rem + 1.125 * (100vw - 23.4375rem) / 51.5625);
+      font-size: calc(2.25rem + 1.125 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (font-size: clamp( 2.25rem , 1.7386363636rem  +  2.1818181818vw , 3.375rem )) {
+@supports (font-size: clamp( 2.25rem , 1.8409090909rem  +  2.0454545455vw , 3.375rem )) {
     .main-block__title span {
-      font-size: clamp( 2.25rem , 1.7386363636rem  +  2.1818181818vw , 3.375rem );
+      font-size: clamp( 2.25rem , 1.8409090909rem  +  2.0454545455vw , 3.375rem );
     }
 }
 
-@supports not (font-size: clamp( 2.25rem , 1.7386363636rem  +  2.1818181818vw , 3.375rem )) {
+@supports not (font-size: clamp( 2.25rem , 1.8409090909rem  +  2.0454545455vw , 3.375rem )) {
     .main-block__title span {
-      font-size: calc(2.25rem + 1.125 * (100vw - 23.4375rem) / 51.5625);
+      font-size: calc(2.25rem + 1.125 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (font-size: clamp( 1.125rem , 0.9545454545rem  +  0.7272727273vw , 1.5rem )) {
+@supports (font-size: clamp( 1.125rem , 0.9886363636rem  +  0.6818181818vw , 1.5rem )) {
     .main-block__label {
-      font-size: clamp( 1.125rem , 0.9545454545rem  +  0.7272727273vw , 1.5rem );
+      font-size: clamp( 1.125rem , 0.9886363636rem  +  0.6818181818vw , 1.5rem );
     }
 }
 
-@supports not (font-size: clamp( 1.125rem , 0.9545454545rem  +  0.7272727273vw , 1.5rem )) {
+@supports not (font-size: clamp( 1.125rem , 0.9886363636rem  +  0.6818181818vw , 1.5rem )) {
     .main-block__label {
-      font-size: calc(1.125rem + 0.375 * (100vw - 23.4375rem) / 51.5625);
+      font-size: calc(1.125rem + 0.375 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (margin-bottom: clamp( 1.5625rem , 1.1363636364rem  +  1.8181818182vw , 2.5rem )) {
+@supports (margin-bottom: clamp( 1.5625rem , 1.2215909091rem  +  1.7045454545vw , 2.5rem )) {
     .main-block__label:not(:last-child) {
-      margin-bottom: clamp( 1.5625rem , 1.1363636364rem  +  1.8181818182vw , 2.5rem );
+      margin-bottom: clamp( 1.5625rem , 1.2215909091rem  +  1.7045454545vw , 2.5rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 1.5625rem , 1.1363636364rem  +  1.8181818182vw , 2.5rem )) {
+@supports not (margin-bottom: clamp( 1.5625rem , 1.2215909091rem  +  1.7045454545vw , 2.5rem )) {
     .main-block__label:not(:last-child) {
-      margin-bottom: calc(1.5625rem + 0.9375 * (100vw - 23.4375rem) / 51.5625);
+      margin-bottom: calc(1.5625rem + 0.9375 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (padding: clamp( 1rem , 0.7727272727rem  +  0.9696969697vw , 1.5rem )) {
+@supports (padding: clamp( 1rem , 0.8181818182rem  +  0.9090909091vw , 1.5rem )) {
     .main-block__btn {
-      padding: clamp( 1rem , 0.7727272727rem  +  0.9696969697vw , 1.5rem );
+      padding: clamp( 1rem , 0.8181818182rem  +  0.9090909091vw , 1.5rem );
     }
 }
 
-@supports not (padding: clamp( 1rem , 0.7727272727rem  +  0.9696969697vw , 1.5rem )) {
+@supports not (padding: clamp( 1rem , 0.8181818182rem  +  0.9090909091vw , 1.5rem )) {
     .main-block__btn {
-      padding: calc(1rem + 0.5 * (100vw - 23.4375rem) / 51.5625);
+      padding: calc(1rem + 0.5 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (padding-top: clamp( 2.8125rem , -1.875rem  +  20vw , 13.125rem )) {
+@supports (padding-top: clamp( 2.8125rem , -0.9375rem  +  18.75vw , 13.125rem )) {
     .job-direction__container {
-      padding-top: clamp( 2.8125rem , -1.875rem  +  20vw , 13.125rem );
+      padding-top: clamp( 2.8125rem , -0.9375rem  +  18.75vw , 13.125rem );
     }
 }
 
-@supports not (padding-top: clamp( 2.8125rem , -1.875rem  +  20vw , 13.125rem )) {
+@supports not (padding-top: clamp( 2.8125rem , -0.9375rem  +  18.75vw , 13.125rem )) {
     .job-direction__container {
-      padding-top: calc(2.8125rem + 10.3125 * (100vw - 23.4375rem) / 51.5625);
+      padding-top: calc(2.8125rem + 10.3125 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (padding-bottom: clamp( 3.75rem , 1.8465909091rem  +  8.1212121212vw , 7.9375rem )) {
+@supports (padding-bottom: clamp( 3.75rem , 2.2272727273rem  +  7.6136363636vw , 7.9375rem )) {
     .job-direction__container {
-      padding-bottom: clamp( 3.75rem , 1.8465909091rem  +  8.1212121212vw , 7.9375rem );
+      padding-bottom: clamp( 3.75rem , 2.2272727273rem  +  7.6136363636vw , 7.9375rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 3.75rem , 1.8465909091rem  +  8.1212121212vw , 7.9375rem )) {
+@supports not (padding-bottom: clamp( 3.75rem , 2.2272727273rem  +  7.6136363636vw , 7.9375rem )) {
     .job-direction__container {
-      padding-bottom: calc(3.75rem + 4.1875 * (100vw - 23.4375rem) / 51.5625);
+      padding-bottom: calc(3.75rem + 4.1875 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (row-gap: clamp( 1.875rem , 0.8806818182rem  +  4.2424242424vw , 4.0625rem )) {
+@supports (row-gap: clamp( 1.875rem , 1.0795454545rem  +  3.9772727273vw , 4.0625rem )) {
     .job-direction__container {
-      row-gap: clamp( 1.875rem , 0.8806818182rem  +  4.2424242424vw , 4.0625rem );
+      row-gap: clamp( 1.875rem , 1.0795454545rem  +  3.9772727273vw , 4.0625rem );
     }
 }
 
-@supports not (row-gap: clamp( 1.875rem , 0.8806818182rem  +  4.2424242424vw , 4.0625rem )) {
+@supports not (row-gap: clamp( 1.875rem , 1.0795454545rem  +  3.9772727273vw , 4.0625rem )) {
     .job-direction__container {
-      row-gap: calc(1.875rem + 2.1875 * (100vw - 23.4375rem) / 51.5625);
+      row-gap: calc(1.875rem + 2.1875 * (100vw - 20rem) / 55);
     }
 }
 
-@supports ((-moz-column-gap: clamp( 1.25rem , 0.9659090909rem  +  1.2121212121vw , 1.875rem )) or (column-gap: clamp( 1.25rem , 0.9659090909rem  +  1.2121212121vw , 1.875rem ))) {
+@supports ((-moz-column-gap: clamp( 1.25rem , 1.0227272727rem  +  1.1363636364vw , 1.875rem )) or (column-gap: clamp( 1.25rem , 1.0227272727rem  +  1.1363636364vw , 1.875rem ))) {
     .job-direction__row:nth-child(1) {
-      -webkit-column-gap: clamp( 1.25rem , 0.9659090909rem  +  1.2121212121vw , 1.875rem );
-         -moz-column-gap: clamp( 1.25rem , 0.9659090909rem  +  1.2121212121vw , 1.875rem );
-              column-gap: clamp( 1.25rem , 0.9659090909rem  +  1.2121212121vw , 1.875rem );
+      -webkit-column-gap: clamp( 1.25rem , 1.0227272727rem  +  1.1363636364vw , 1.875rem );
+         -moz-column-gap: clamp( 1.25rem , 1.0227272727rem  +  1.1363636364vw , 1.875rem );
+              column-gap: clamp( 1.25rem , 1.0227272727rem  +  1.1363636364vw , 1.875rem );
     }
 }
 
-@supports not ((-moz-column-gap: clamp( 1.25rem , 0.9659090909rem  +  1.2121212121vw , 1.875rem )) or (column-gap: clamp( 1.25rem , 0.9659090909rem  +  1.2121212121vw , 1.875rem ))) {
+@supports not ((-moz-column-gap: clamp( 1.25rem , 1.0227272727rem  +  1.1363636364vw , 1.875rem )) or (column-gap: clamp( 1.25rem , 1.0227272727rem  +  1.1363636364vw , 1.875rem ))) {
     .job-direction__row:nth-child(1) {
-      -webkit-column-gap: calc(1.25rem + 0.625 * (100vw - 23.4375rem) / 51.5625);
-         -moz-column-gap: calc(1.25rem + 0.625 * (100vw - 23.4375rem) / 51.5625);
-              column-gap: calc(1.25rem + 0.625 * (100vw - 23.4375rem) / 51.5625);
+      -webkit-column-gap: calc(1.25rem + 0.625 * (100vw - 20rem) / 55);
+         -moz-column-gap: calc(1.25rem + 0.625 * (100vw - 20rem) / 55);
+              column-gap: calc(1.25rem + 0.625 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (margin-bottom: clamp( 1.5625rem , 1.0227272727rem  +  2.303030303vw , 2.75rem )) {
+@supports (margin-bottom: clamp( 1.5625rem , 1.1306818182rem  +  2.1590909091vw , 2.75rem )) {
     .job-direction__title:not(:last-child) {
-      margin-bottom: clamp( 1.5625rem , 1.0227272727rem  +  2.303030303vw , 2.75rem );
+      margin-bottom: clamp( 1.5625rem , 1.1306818182rem  +  2.1590909091vw , 2.75rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 1.5625rem , 1.0227272727rem  +  2.303030303vw , 2.75rem )) {
+@supports not (margin-bottom: clamp( 1.5625rem , 1.1306818182rem  +  2.1590909091vw , 2.75rem )) {
     .job-direction__title:not(:last-child) {
-      margin-bottom: calc(1.5625rem + 1.1875 * (100vw - 23.4375rem) / 51.5625);
+      margin-bottom: calc(1.5625rem + 1.1875 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (row-gap: clamp( 1.25rem , 0.6818181818rem  +  2.4242424242vw , 2.5rem )) {
+@supports (row-gap: clamp( 1.25rem , 0.7954545455rem  +  2.2727272727vw , 2.5rem )) {
     .job-direction__items {
-      row-gap: clamp( 1.25rem , 0.6818181818rem  +  2.4242424242vw , 2.5rem );
+      row-gap: clamp( 1.25rem , 0.7954545455rem  +  2.2727272727vw , 2.5rem );
     }
 }
 
-@supports not (row-gap: clamp( 1.25rem , 0.6818181818rem  +  2.4242424242vw , 2.5rem )) {
+@supports not (row-gap: clamp( 1.25rem , 0.7954545455rem  +  2.2727272727vw , 2.5rem )) {
     .job-direction__items {
-      row-gap: calc(1.25rem + 1.25 * (100vw - 23.4375rem) / 51.5625);
+      row-gap: calc(1.25rem + 1.25 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (row-gap: clamp( 1.5625rem , 0.4545454545rem  +  4.7272727273vw , 4rem )) {
+@supports (row-gap: clamp( 1.5625rem , 0.6761363636rem  +  4.4318181818vw , 4rem )) {
     .info-job {
-      row-gap: clamp( 1.5625rem , 0.4545454545rem  +  4.7272727273vw , 4rem );
+      row-gap: clamp( 1.5625rem , 0.6761363636rem  +  4.4318181818vw , 4rem );
     }
 }
 
-@supports not (row-gap: clamp( 1.5625rem , 0.4545454545rem  +  4.7272727273vw , 4rem )) {
+@supports not (row-gap: clamp( 1.5625rem , 0.6761363636rem  +  4.4318181818vw , 4rem )) {
     .info-job {
-      row-gap: calc(1.5625rem + 2.4375 * (100vw - 23.4375rem) / 51.5625);
+      row-gap: calc(1.5625rem + 2.4375 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (font-size: clamp( 1.75rem , 1.4090909091rem  +  1.4545454545vw , 2.5rem )) {
+@supports (font-size: clamp( 1.75rem , 1.4772727273rem  +  1.3636363636vw , 2.5rem )) {
     .info-job__title {
-      font-size: clamp( 1.75rem , 1.4090909091rem  +  1.4545454545vw , 2.5rem );
+      font-size: clamp( 1.75rem , 1.4772727273rem  +  1.3636363636vw , 2.5rem );
     }
 }
 
-@supports not (font-size: clamp( 1.75rem , 1.4090909091rem  +  1.4545454545vw , 2.5rem )) {
+@supports not (font-size: clamp( 1.75rem , 1.4772727273rem  +  1.3636363636vw , 2.5rem )) {
     .info-job__title {
-      font-size: calc(1.75rem + 0.75 * (100vw - 23.4375rem) / 51.5625);
+      font-size: calc(1.75rem + 0.75 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (row-gap: clamp( 0.9375rem , 0.5113636364rem  +  1.8181818182vw , 1.875rem )) {
+@supports (row-gap: clamp( 0.9375rem , 0.5965909091rem  +  1.7045454545vw , 1.875rem )) {
     .info-job__text {
-      row-gap: clamp( 0.9375rem , 0.5113636364rem  +  1.8181818182vw , 1.875rem );
+      row-gap: clamp( 0.9375rem , 0.5965909091rem  +  1.7045454545vw , 1.875rem );
     }
 }
 
-@supports not (row-gap: clamp( 0.9375rem , 0.5113636364rem  +  1.8181818182vw , 1.875rem )) {
+@supports not (row-gap: clamp( 0.9375rem , 0.5965909091rem  +  1.7045454545vw , 1.875rem )) {
     .info-job__text {
-      row-gap: calc(0.9375rem + 0.9375 * (100vw - 23.4375rem) / 51.5625);
+      row-gap: calc(0.9375rem + 0.9375 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (font-size: clamp( 1rem , 0.7727272727rem  +  0.9696969697vw , 1.5rem )) {
+@supports (font-size: clamp( 1rem , 0.8181818182rem  +  0.9090909091vw , 1.5rem )) {
     .info-job__text {
-      font-size: clamp( 1rem , 0.7727272727rem  +  0.9696969697vw , 1.5rem );
+      font-size: clamp( 1rem , 0.8181818182rem  +  0.9090909091vw , 1.5rem );
     }
 }
 
-@supports not (font-size: clamp( 1rem , 0.7727272727rem  +  0.9696969697vw , 1.5rem )) {
+@supports not (font-size: clamp( 1rem , 0.8181818182rem  +  0.9090909091vw , 1.5rem )) {
     .info-job__text {
-      font-size: calc(1rem + 0.5 * (100vw - 23.4375rem) / 51.5625);
+      font-size: calc(1rem + 0.5 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (padding-top: clamp( 2.1875rem , -1.8181818182rem  +  17.0909090909vw , 11rem )) {
+@supports (padding-top: clamp( 2.1875rem , -1.0170454545rem  +  16.0227272727vw , 11rem )) {
     .fond-steps__container {
-      padding-top: clamp( 2.1875rem , -1.8181818182rem  +  17.0909090909vw , 11rem );
+      padding-top: clamp( 2.1875rem , -1.0170454545rem  +  16.0227272727vw , 11rem );
     }
 }
 
-@supports not (padding-top: clamp( 2.1875rem , -1.8181818182rem  +  17.0909090909vw , 11rem )) {
+@supports not (padding-top: clamp( 2.1875rem , -1.0170454545rem  +  16.0227272727vw , 11rem )) {
     .fond-steps__container {
-      padding-top: calc(2.1875rem + 8.8125 * (100vw - 23.4375rem) / 51.5625);
+      padding-top: calc(2.1875rem + 8.8125 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (padding-bottom: clamp( 2.1875rem , -2.1022727273rem  +  18.303030303vw , 11.625rem )) {
+@supports (padding-bottom: clamp( 2.1875rem , -1.2443181818rem  +  17.1590909091vw , 11.625rem )) {
     .fond-steps__container {
-      padding-bottom: clamp( 2.1875rem , -2.1022727273rem  +  18.303030303vw , 11.625rem );
+      padding-bottom: clamp( 2.1875rem , -1.2443181818rem  +  17.1590909091vw , 11.625rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 2.1875rem , -2.1022727273rem  +  18.303030303vw , 11.625rem )) {
+@supports not (padding-bottom: clamp( 2.1875rem , -1.2443181818rem  +  17.1590909091vw , 11.625rem )) {
     .fond-steps__container {
-      padding-bottom: calc(2.1875rem + 9.4375 * (100vw - 23.4375rem) / 51.5625);
+      padding-bottom: calc(2.1875rem + 9.4375 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (font-size: clamp( 1.25rem , 0.6818181818rem  +  2.4242424242vw , 2.5rem )) {
+@supports (font-size: clamp( 1.25rem , 0.7954545455rem  +  2.2727272727vw , 2.5rem )) {
     .fond-steps__title {
-      font-size: clamp( 1.25rem , 0.6818181818rem  +  2.4242424242vw , 2.5rem );
+      font-size: clamp( 1.25rem , 0.7954545455rem  +  2.2727272727vw , 2.5rem );
     }
 }
 
-@supports not (font-size: clamp( 1.25rem , 0.6818181818rem  +  2.4242424242vw , 2.5rem )) {
+@supports not (font-size: clamp( 1.25rem , 0.7954545455rem  +  2.2727272727vw , 2.5rem )) {
     .fond-steps__title {
-      font-size: calc(1.25rem + 1.25 * (100vw - 23.4375rem) / 51.5625);
+      font-size: calc(1.25rem + 1.25 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (margin-bottom: clamp( 1.875rem , -1.3068181818rem  +  13.5757575758vw , 8.875rem )) {
+@supports (margin-bottom: clamp( 1.875rem , -0.6704545455rem  +  12.7272727273vw , 8.875rem )) {
     .fond-steps__title:not(:last-child) {
-      margin-bottom: clamp( 1.875rem , -1.3068181818rem  +  13.5757575758vw , 8.875rem );
+      margin-bottom: clamp( 1.875rem , -0.6704545455rem  +  12.7272727273vw , 8.875rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 1.875rem , -1.3068181818rem  +  13.5757575758vw , 8.875rem )) {
+@supports not (margin-bottom: clamp( 1.875rem , -0.6704545455rem  +  12.7272727273vw , 8.875rem )) {
     .fond-steps__title:not(:last-child) {
-      margin-bottom: calc(1.875rem + 7 * (100vw - 23.4375rem) / 51.5625);
+      margin-bottom: calc(1.875rem + 7 * (100vw - 20rem) / 55);
     }
 }
 
-@supports ((-moz-column-gap: clamp( 1.25rem , -2.4431818182rem  +  15.7575757576vw , 9.375rem )) or (column-gap: clamp( 1.25rem , -2.4431818182rem  +  15.7575757576vw , 9.375rem ))) {
+@supports ((-moz-column-gap: clamp( 1.25rem , -1.7045454545rem  +  14.7727272727vw , 9.375rem )) or (column-gap: clamp( 1.25rem , -1.7045454545rem  +  14.7727272727vw , 9.375rem ))) {
     .fond-steps__items {
-      -webkit-column-gap: clamp( 1.25rem , -2.4431818182rem  +  15.7575757576vw , 9.375rem );
-         -moz-column-gap: clamp( 1.25rem , -2.4431818182rem  +  15.7575757576vw , 9.375rem );
-              column-gap: clamp( 1.25rem , -2.4431818182rem  +  15.7575757576vw , 9.375rem );
+      -webkit-column-gap: clamp( 1.25rem , -1.7045454545rem  +  14.7727272727vw , 9.375rem );
+         -moz-column-gap: clamp( 1.25rem , -1.7045454545rem  +  14.7727272727vw , 9.375rem );
+              column-gap: clamp( 1.25rem , -1.7045454545rem  +  14.7727272727vw , 9.375rem );
     }
 }
 
-@supports not ((-moz-column-gap: clamp( 1.25rem , -2.4431818182rem  +  15.7575757576vw , 9.375rem )) or (column-gap: clamp( 1.25rem , -2.4431818182rem  +  15.7575757576vw , 9.375rem ))) {
+@supports not ((-moz-column-gap: clamp( 1.25rem , -1.7045454545rem  +  14.7727272727vw , 9.375rem )) or (column-gap: clamp( 1.25rem , -1.7045454545rem  +  14.7727272727vw , 9.375rem ))) {
     .fond-steps__items {
-      -webkit-column-gap: calc(1.25rem + 8.125 * (100vw - 23.4375rem) / 51.5625);
-         -moz-column-gap: calc(1.25rem + 8.125 * (100vw - 23.4375rem) / 51.5625);
-              column-gap: calc(1.25rem + 8.125 * (100vw - 23.4375rem) / 51.5625);
+      -webkit-column-gap: calc(1.25rem + 8.125 * (100vw - 20rem) / 55);
+         -moz-column-gap: calc(1.25rem + 8.125 * (100vw - 20rem) / 55);
+              column-gap: calc(1.25rem + 8.125 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (font-size: clamp( 1.25rem , 1.1363636364rem  +  0.4848484848vw , 1.5rem )) {
+@supports (row-gap: clamp( 1.5625rem , 0.6306818182rem  +  4.6590909091vw , 4.125rem )) {
+    .fond-steps__item {
+      row-gap: clamp( 1.5625rem , 0.6306818182rem  +  4.6590909091vw , 4.125rem );
+    }
+}
+
+@supports not (row-gap: clamp( 1.5625rem , 0.6306818182rem  +  4.6590909091vw , 4.125rem )) {
+    .fond-steps__item {
+      row-gap: calc(1.5625rem + 2.5625 * (100vw - 20rem) / 55);
+    }
+}
+
+@supports (font-size: clamp( 1.25rem , 1.1590909091rem  +  0.4545454545vw , 1.5rem )) {
     .fond-steps__label {
-      font-size: clamp( 1.25rem , 1.1363636364rem  +  0.4848484848vw , 1.5rem );
+      font-size: clamp( 1.25rem , 1.1590909091rem  +  0.4545454545vw , 1.5rem );
     }
 }
 
-@supports not (font-size: clamp( 1.25rem , 1.1363636364rem  +  0.4848484848vw , 1.5rem )) {
+@supports not (font-size: clamp( 1.25rem , 1.1590909091rem  +  0.4545454545vw , 1.5rem )) {
     .fond-steps__label {
-      font-size: calc(1.25rem + 0.25 * (100vw - 23.4375rem) / 51.5625);
+      font-size: calc(1.25rem + 0.25 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (padding-top: clamp( 1.875rem , 1.0227272727rem  +  3.6363636364vw , 3.75rem )) {
+@supports (padding-top: clamp( 1.875rem , 1.1931818182rem  +  3.4090909091vw , 3.75rem )) {
     .contact-us__container {
-      padding-top: clamp( 1.875rem , 1.0227272727rem  +  3.6363636364vw , 3.75rem );
+      padding-top: clamp( 1.875rem , 1.1931818182rem  +  3.4090909091vw , 3.75rem );
     }
 }
 
-@supports not (padding-top: clamp( 1.875rem , 1.0227272727rem  +  3.6363636364vw , 3.75rem )) {
+@supports not (padding-top: clamp( 1.875rem , 1.1931818182rem  +  3.4090909091vw , 3.75rem )) {
     .contact-us__container {
-      padding-top: calc(1.875rem + 1.875 * (100vw - 23.4375rem) / 51.5625);
+      padding-top: calc(1.875rem + 1.875 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (padding-bottom: clamp( 1.875rem , -0.4545454545rem  +  9.9393939394vw , 7rem )) {
+@supports (padding-bottom: clamp( 1.875rem , 0.0113636364rem  +  9.3181818182vw , 7rem )) {
     .contact-us__container {
-      padding-bottom: clamp( 1.875rem , -0.4545454545rem  +  9.9393939394vw , 7rem );
+      padding-bottom: clamp( 1.875rem , 0.0113636364rem  +  9.3181818182vw , 7rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 1.875rem , -0.4545454545rem  +  9.9393939394vw , 7rem )) {
+@supports not (padding-bottom: clamp( 1.875rem , 0.0113636364rem  +  9.3181818182vw , 7rem )) {
     .contact-us__container {
-      padding-bottom: calc(1.875rem + 5.125 * (100vw - 23.4375rem) / 51.5625);
+      padding-bottom: calc(1.875rem + 5.125 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (font-size: clamp( 1.75rem , 1.6363636364rem  +  0.4848484848vw , 2rem )) {
+@supports (font-size: clamp( 1.75rem , 1.6590909091rem  +  0.4545454545vw , 2rem )) {
     .contact-us__title {
-      font-size: clamp( 1.75rem , 1.6363636364rem  +  0.4848484848vw , 2rem );
+      font-size: clamp( 1.75rem , 1.6590909091rem  +  0.4545454545vw , 2rem );
     }
 }
 
-@supports not (font-size: clamp( 1.75rem , 1.6363636364rem  +  0.4848484848vw , 2rem )) {
+@supports not (font-size: clamp( 1.75rem , 1.6590909091rem  +  0.4545454545vw , 2rem )) {
     .contact-us__title {
-      font-size: calc(1.75rem + 0.25 * (100vw - 23.4375rem) / 51.5625);
+      font-size: calc(1.75rem + 0.25 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (margin-bottom: clamp( 1.875rem , 0.7386363636rem  +  4.8484848485vw , 4.375rem )) {
+@supports (margin-bottom: clamp( 1.875rem , 0.9659090909rem  +  4.5454545455vw , 4.375rem )) {
     .contact-us__title:not(:last-child) {
-      margin-bottom: clamp( 1.875rem , 0.7386363636rem  +  4.8484848485vw , 4.375rem );
+      margin-bottom: clamp( 1.875rem , 0.9659090909rem  +  4.5454545455vw , 4.375rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 1.875rem , 0.7386363636rem  +  4.8484848485vw , 4.375rem )) {
+@supports not (margin-bottom: clamp( 1.875rem , 0.9659090909rem  +  4.5454545455vw , 4.375rem )) {
     .contact-us__title:not(:last-child) {
-      margin-bottom: calc(1.875rem + 2.5 * (100vw - 23.4375rem) / 51.5625);
+      margin-bottom: calc(1.875rem + 2.5 * (100vw - 20rem) / 55);
     }
 }
 
-@supports (font-size: clamp( 1rem , 0.8863636364rem  +  0.4848484848vw , 1.25rem )) {
+@supports (font-size: clamp( 1rem , 0.9090909091rem  +  0.4545454545vw , 1.25rem )) {
     .contact-us__button {
-      font-size: clamp( 1rem , 0.8863636364rem  +  0.4848484848vw , 1.25rem );
+      font-size: clamp( 1rem , 0.9090909091rem  +  0.4545454545vw , 1.25rem );
     }
 }
 
-@supports not (font-size: clamp( 1rem , 0.8863636364rem  +  0.4848484848vw , 1.25rem )) {
+@supports not (font-size: clamp( 1rem , 0.9090909091rem  +  0.4545454545vw , 1.25rem )) {
     .contact-us__button {
-      font-size: calc(1rem + 0.25 * (100vw - 23.4375rem) / 51.5625);
+      font-size: calc(1rem + 0.25 * (100vw - 20rem) / 55);
     }
 }
 }
